@@ -18,7 +18,6 @@ fauxmoESP fauxmo;
 // Wifi
 // -----------------------------------------------------------------------------
 
-
 void wifiSetup() {
 
     // Set WIFI module to STA mode
@@ -41,13 +40,10 @@ void wifiSetup() {
 }
 
 void setup() {
+
     pinMode(RELAY1, OUTPUT);
-    //pinMode(buttonPin, INPUT_PULLUP);
     digitalWrite(RELAY1, LOW);
-    // Init serial port and clean garbage
     Serial.begin(SERIAL_BAUDRATE);
-    Serial.println("FauxMo demo sketch");
-    Serial.println("After connection, ask Alexa/Echo to 'turn <devicename> on' or 'off'");
 
     // Wifi
     wifiSetup();
@@ -85,27 +81,4 @@ void setup() {
 
 void loop() {
   fauxmo.handle();
-  
-  // read the pushbutton input pin:
-  /*buttonState = digitalRead(buttonPin);
-
-  // compare the buttonState to its previous state
-  if (buttonState != lastButtonState) {
-    // if the state has changed, increment the counter
-    if (buttonState == LOW) {
-      Serial.println("on");
-      digitalWrite(RELAY1, HIGH);
-    }
-    else {
-      // if the current state is LOW then the button
-      // went from on to off:
-      Serial.println("off");
-      digitalWrite(RELAY1, LOW);
-    }
-    // Delay a little bit to avoid bouncing
-    delay(50);
-  }
-  // save the current state as the last state,
-  //for next time through the loop
-  lastButtonState = buttonState;*/
 }
