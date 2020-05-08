@@ -28,5 +28,4 @@ Para este proyecto necesitamos las siguientes librerías
 - <a href="https://articulo.mercadolibre.com.mx/MLM-657009652-protoboard-400-puntos-breadboard-_JM" target="_blank">Protoboard</a>
 - <a href="https://articulo.mercadolibre.com.mx/MLM-674672577-fuente-de-alimentacion-para-protoboard-mb-102-33v-5v-_JM" target="_blank">Fuente De Alimentación Para Protoboard Mb-102 3.3v 5v</a>
 - <a href="https://articulo.mercadolibre.com.mx/MLM-618752755-cables-jumpers-dupont-120-piezas-20-cm-proyectos-arduino-_JM" target="_blank">Cables Dupont</a>
-- <a href="https://articulo.mercadolibre.com.mx/MLM-674672577-fuente-de-alimentacion-para-protoboard-mb-102-33v-5v-_JM" target="_blank">Fuente De Alimentación Para Protoboard Mb-102 3.3v 5v</a>
 - <a href="https://www.bestbuy.com.mx/p/amazon-echo-dot-3a-generacion-bocina-inteligente-con-alexa-negro-carbon/1000222122" target="_blank">Amazon Alexa Echo Dot (3ra generación)</a>
