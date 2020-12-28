@@ -1,5 +1,5 @@
 # Configuración y preparación  
-Para preparar el módulo y saber como soldar los pines para meterlo en modo de programación me base en en siguiente tutorial:<br>
+Para preparar el módulo y saber como soldar los pines para meterlo en modo de programación me base en el siguiente tutorial:<br>
 <a href="https://www.cdmxelectronica.com/producto/modulo-wifi-esp8266-esp-01s/#Tutorial-CDMXElectronica-INTESP" target="_blank">Tutorial <b>Como programar el ESP-01S con el programador USB interfaz y el Arduino IDE</b></a>
 
 ## Instalación de librerías
